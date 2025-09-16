@@ -1,0 +1,22 @@
+Question:
+Given an integer n. Write a program to find last digit of the number.
+
+Examples:
+
+Input: n = 10
+Output: 0
+Input: n = 9768
+Output: 8
+
+Solution:
+class Solution {
+    public static void utility(int n) {
+
+        // just complete below statement
+        n = Math.abs(n);
+        int ans = n % 10;
+
+            // below statement print the result
+            System.out.println(ans);
+    }
+}
